@@ -13,6 +13,14 @@
 		525230E92101AD0F00E957A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525230E82101AD0F00E957A1 /* Assets.xcassets */; };
 		525230EC2101AD0F00E957A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525230EA2101AD0F00E957A1 /* LaunchScreen.storyboard */; };
 		525230EF2101AD0F00E957A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 525230EE2101AD0F00E957A1 /* main.m */; };
+		525230F92101AD4300E957A1 /* MLMediatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 525230F52101AD4200E957A1 /* MLMediatorManager.m */; };
+		525230FA2101AD4300E957A1 /* MLMediatorManager+RemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 525230F82101AD4300E957A1 /* MLMediatorManager+RemotePlayer.m */; };
+		525231082101AD4A00E957A1 /* MLAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 525230FD2101AD4A00E957A1 /* MLAudioDownLoader.m */; };
+		525231092101AD4A00E957A1 /* MLAudioFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 525230FF2101AD4A00E957A1 /* MLAudioFileTool.m */; };
+		5252310A2101AD4A00E957A1 /* MLRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 525231012101AD4A00E957A1 /* MLRemotePlayer.m */; };
+		5252310B2101AD4A00E957A1 /* MLResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 525231032101AD4A00E957A1 /* MLResourceLoader.m */; };
+		5252310C2101AD4A00E957A1 /* NSURL+MLAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 525231052101AD4A00E957A1 /* NSURL+MLAudio.m */; };
+		5252310D2101AD4A00E957A1 /* RemoteModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 525231072101AD4A00E957A1 /* RemoteModuleAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		525230EB2101AD0F00E957A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525230ED2101AD0F00E957A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525230EE2101AD0F00E957A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		525230F52101AD4200E957A1 /* MLMediatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMediatorManager.m; sourceTree = "<group>"; };
+		525230F62101AD4200E957A1 /* MLMediatorManager+RemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLMediatorManager+RemotePlayer.h"; sourceTree = "<group>"; };
+		525230F72101AD4200E957A1 /* MLMediatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMediatorManager.h; sourceTree = "<group>"; };
+		525230F82101AD4300E957A1 /* MLMediatorManager+RemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MLMediatorManager+RemotePlayer.m"; sourceTree = "<group>"; };
+		525230FC2101AD4A00E957A1 /* MLAudioDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAudioDownLoader.h; sourceTree = "<group>"; };
+		525230FD2101AD4A00E957A1 /* MLAudioDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAudioDownLoader.m; sourceTree = "<group>"; };
+		525230FE2101AD4A00E957A1 /* MLAudioFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAudioFileTool.h; sourceTree = "<group>"; };
+		525230FF2101AD4A00E957A1 /* MLAudioFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAudioFileTool.m; sourceTree = "<group>"; };
+		525231002101AD4A00E957A1 /* MLRemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRemotePlayer.h; sourceTree = "<group>"; };
+		525231012101AD4A00E957A1 /* MLRemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRemotePlayer.m; sourceTree = "<group>"; };
+		525231022101AD4A00E957A1 /* MLResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLResourceLoader.h; sourceTree = "<group>"; };
+		525231032101AD4A00E957A1 /* MLResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLResourceLoader.m; sourceTree = "<group>"; };
+		525231042101AD4A00E957A1 /* NSURL+MLAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MLAudio.h"; sourceTree = "<group>"; };
+		525231052101AD4A00E957A1 /* NSURL+MLAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MLAudio.m"; sourceTree = "<group>"; };
+		525231062101AD4A00E957A1 /* RemoteModuleAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteModuleAPI.h; sourceTree = "<group>"; };
+		525231072101AD4A00E957A1 /* RemoteModuleAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteModuleAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,11 @@
 		525230DE2101AD0E00E957A1 /* RemotePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				525230FB2101AD4A00E957A1 /* Classes */,
+				525230F72101AD4200E957A1 /* MLMediatorManager.h */,
+				525230F52101AD4200E957A1 /* MLMediatorManager.m */,
+				525230F62101AD4200E957A1 /* MLMediatorManager+RemotePlayer.h */,
+				525230F82101AD4300E957A1 /* MLMediatorManager+RemotePlayer.m */,
 				525230DF2101AD0E00E957A1 /* AppDelegate.h */,
 				525230E02101AD0E00E957A1 /* AppDelegate.m */,
 				525230E22101AD0E00E957A1 /* ViewController.h */,
@@ -69,6 +98,25 @@
 				525230EE2101AD0F00E957A1 /* main.m */,
 			);
 			path = RemotePlayer;
+			sourceTree = "<group>";
+		};
+		525230FB2101AD4A00E957A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				525230FC2101AD4A00E957A1 /* MLAudioDownLoader.h */,
+				525230FD2101AD4A00E957A1 /* MLAudioDownLoader.m */,
+				525230FE2101AD4A00E957A1 /* MLAudioFileTool.h */,
+				525230FF2101AD4A00E957A1 /* MLAudioFileTool.m */,
+				525231002101AD4A00E957A1 /* MLRemotePlayer.h */,
+				525231012101AD4A00E957A1 /* MLRemotePlayer.m */,
+				525231022101AD4A00E957A1 /* MLResourceLoader.h */,
+				525231032101AD4A00E957A1 /* MLResourceLoader.m */,
+				525231042101AD4A00E957A1 /* NSURL+MLAudio.h */,
+				525231052101AD4A00E957A1 /* NSURL+MLAudio.m */,
+				525231062101AD4A00E957A1 /* RemoteModuleAPI.h */,
+				525231072101AD4A00E957A1 /* RemoteModuleAPI.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525230FA2101AD4300E957A1 /* MLMediatorManager+RemotePlayer.m in Sources */,
 				525230E42101AD0E00E957A1 /* ViewController.m in Sources */,
 				525230EF2101AD0F00E957A1 /* main.m in Sources */,
+				5252310D2101AD4A00E957A1 /* RemoteModuleAPI.m in Sources */,
 				525230E12101AD0E00E957A1 /* AppDelegate.m in Sources */,
+				525231092101AD4A00E957A1 /* MLAudioFileTool.m in Sources */,
+				5252310A2101AD4A00E957A1 /* MLRemotePlayer.m in Sources */,
+				525231082101AD4A00E957A1 /* MLAudioDownLoader.m in Sources */,
+				5252310B2101AD4A00E957A1 /* MLResourceLoader.m in Sources */,
+				5252310C2101AD4A00E957A1 /* NSURL+MLAudio.m in Sources */,
+				525230F92101AD4300E957A1 /* MLMediatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
